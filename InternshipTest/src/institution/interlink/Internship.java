@@ -27,6 +27,10 @@ public class Internship {
 
     public String getStudents() {
         //TODO: Implementation is needed
-        return "Andrew Maslenko\nJulia Veselkina\n";
+        String allInterns = "";
+        for (int i = 0; i<interns.size(); i++) {
+            allInterns = allInterns + interns.get(i).name + "\n";
+        }
+        return allInterns;
     }
 }
