@@ -6,6 +6,7 @@ public class Student {
     public String firstName = "";
     public String lastName = "";
     public String name = "";
+    public Knowledge knowledge = new Knowledge(0);
     
     public Student(String name) {
         //TODO: Implementation is needed
@@ -27,5 +28,6 @@ public class Student {
 
     public void setKnowledge(Knowledge knowledge) {
         //TODO: Implementation is needed
+        this.knowledge = knowledge;
     }
 }
